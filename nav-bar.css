@@ -1,0 +1,61 @@
+.nav-bar{
+  display:flex;
+ position:fixed;
+ top:0;
+ right:0;
+ left:0;
+ background-color:black;
+ color:white;
+ margin-top:0;
+ height:55px;
+ justify-content: space-between;
+ z-index:100;
+ 
+}
+
+.left{
+  padding-top:15px;
+  padding-left:10px;
+}
+.middle{
+  padding-top:15px;
+}
+.right{
+  padding-top:15px;
+  padding-right:10px;
+}
+.japan-picture{
+  padding-top:80px;
+  width:100%;
+ 
+
+}
+.picture-container{
+  display:flex;
+  justify-content: center;
+  position: relative;
+  
+}
+.header-container{
+  position:absolute;
+  color:white;
+  padding-top:10px;
+  display:flex;
+  justify-content: space-between;
+  right:0px;
+  left:0;
+  top:80px;
+  
+}
+.left-section{
+  font-size:25px;
+  padding-left:15px;
+}
+
+.middle-section{
+  display:flex;
+  justify-content: space-between;
+}
+.right-section{
+  
+}
